@@ -32,8 +32,8 @@ The package demos are described below.
     \item{copper}{Another example of \code{\link{mosaic}}: complexation of Cu with glycine (Aksu and Doyle, 2001)}
     \item{arsenic}{Another example of \code{\link{mosaic}}: Eh-pH diagram for the system As-O-H-S (Lu and Zhu, 2011)}
     \item{solubility}{Solubility of calcite (cf. Manning et al., 2013) and \CO2 (cf. Stumm and Morgan, 1996)}
-    \item{gold}{Solubility of gold (Akinfiev and Zotov; 2001; Stef{\aacute}nsson and Seward, 2004; Williams-Jones et al., 2009)}
-    \item{contour}{Gold solubility contours on a log fO2 - pH diagram (Ding et al., 2023)}
+    \item{gold1}{Solubility of gold 1 (Akinfiev and Zotov; 2001; Stef{\aacute}nsson and Seward, 2004; Williams-Jones et al., 2009)}
+    \item{contour}{Gold solubility contours on a log fO2-pH diagram (Ding et al., 2023; Rubtsova et al., 2026)}
     \item{sphalerite}{Solubility of sphalerite (Akinfiev and Tagirov, 2014)}
     \item{minsol}{Solubilities of multiple minerals}
     \item{Shh}{Affinities of transcription factors relative to Sonic hedgehog (Dick, 2015)}
@@ -52,10 +52,13 @@ The package demos are described below.
     \item{rank.affinity}{Affinity ranking for proteins in yeast nutrient limitation (data from Tai et al., 2005)}
     \item{yttrium}{\code{\link{logK.to.OBIGT}} fits at 800 and 1000 bar and Y speciation in \code{\link{NaCl}} solution at varying pH (Guan et al., 2020)}
     \item{uranyl}{Total (carbonate|sulfate)-pH diagrams for uranyl species (Migdisov et al., 2025)}
-    \item{sum_S}{Summed molality of S species and solubility contours for iron and gold (Skirrow and Walshe, 2002)}
+    \item{sulfur}{Solubility contours for iron and gold as a function of total S (Skirrow, 2026)}
     \item{MgATP}{Speciation of ATP with H+ and Mg+2 (Alberty, 2003)}
     \item{rubisco_Zc}{Zc of Rubisco vs optimal growth temperature}
     \item{phosphorylate}{Phosphorylation model for Gibbs energy of nucleotide polymerization into RNA (LaRowe and Dick, 2025)}
+    \item{gold2}{Solubility of gold 2 (Tagirov et al., 2025)}
+    \item{neodymium}{Solubility of multiple Nd minerals (Migdisov et al., 2016)}
+    \item{chalcocite}{Solubility of chalcocite and gold (Trofimov et al., 2023)}
   }
 
 
@@ -85,7 +88,7 @@ Akinfiev NN, Zotov AV. 2001. Thermodynamic description of chloride, hydrosulfide
 
 Aksu S, Doyle FM. 2001. Electrochemistry of copper in aqueous glycine solutions. \emph{J Electrochem Soc} \bold{148}: B51--B57. \doi{10.1149/1.1344532}
 
-Alberty RA. 2003. \emph{Thermodynamics of Biochemical Reactions}. Hoboken, NJ: John Wiley & Sons. 397 p. \url{https://www.worldcat.org/oclc/51242181}
+Alberty RA. 2003. \emph{Thermodynamics of Biochemical Reactions}. Hoboken, NJ: John Wiley & Sons. 397 p. \url{https://worldcat.org/title/51242181}
 
 Amend JP, Shock EL. 1998. Energetics of amino acid synthesis in hydrothermal ecosystems. \emph{Science} \bold{281}: 1659--1662. \doi{10.1126/science.281.5383.1659}
 
@@ -97,7 +100,7 @@ Azadi MR, Karrech A, Attar M, Elchalakani M. 2019. Data analysis and estimation 
 
 Berman RG. 1988. Internally-consistent thermodynamic data for minerals in the system Na{\s2}O-K{\s2}O-CaO-MgO-FeO-Fe{\s2}O{\s3}-Al{\s2}O{\s3}-SiO{\s2}-TiO{\s2}-H{\s2}O-CO{\s2}. \emph{J Petrol} \bold{29}: 445--522. \doi{10.1093/petrology/29.2.445}
 
-Bowers TS, Jackson KJ, Helgeson HC. 1984. \emph{Equilibrium Activity Diagrams for Coexisting Minerals and Aqueous Solutions at Pressures and Temperatures to 5 kb and 600°C}. Berlin: Springer-Verlag. 397 p. \url{https://www.worldcat.org/oclc/11133620}
+Bowers TS, Jackson KJ, Helgeson HC. 1984. \emph{Equilibrium Activity Diagrams for Coexisting Minerals and Aqueous Solutions at Pressures and Temperatures to 5 kb and 600°C}. Berlin: Springer-Verlag. 397 p. \url{https://worldcat.org/title/11133620}
 
 Canovas PA III, Shock EL. 2016. Geobiochemistry of metabolism: Standard state thermodynamic properties of the citric acid cycle. \emph{Geochim Cosmochim Acta} \bold{195}: 293--322. \doi{10.1016/j.gca.2016.08.028}
 
@@ -107,7 +110,7 @@ Dick JM. 2015. Chemical integration of proteins in signaling and development. \e
 
 Ding Z, Sun X, Hu S, Chen H, Li D, Fu Y, Xu L, Wu Z, Huang F. 2023. Role of carbonaceous material in gold precipitation for orogenic gold deposits: A case study of the Bangbu gold deposit in southern Tibet, China. \emph{Ore Geol Rev} \bold{152}: 105231. \doi{10.1016/j.oregeorev.2022.105231}
 
-Garrels RM, Christ CL. 1965. \emph{Solutions, Minerals, and Equilibria}. New York: Harper & Row. 450 p. \url{https://www.worldcat.org/oclc/517586}
+Garrels RM, Christ CL. 1965. \emph{Solutions, Minerals, and Equilibria}. New York: Harper & Row. 450 p. \url{https://worldcat.org/title/517586}
 
 Guan Q, Mei Y, Etschmann B, Testemale D, Louvel M, Brugger J. 2020. Yttrium complexation and hydration in chloride-rich hydrothermal fluids: A combined \emph{ab initio} molecular dynamics and \emph{in situ} X-ray absorption spectroscopy study. \emph{Geochim Cosmochim Acta} \bold{281}: 168--189. \doi{10.1016/j.gca.2020.04.015}
 
@@ -123,9 +126,13 @@ Lu P, Zhu C. 2011. Arsenic Eh--pH diagrams at 25°C and 1 bar. \emph{Environ Ear
   
 Manning CE, Shock EL, Sverjensky DA. 2013. The chemistry of carbon in aqueous fluids at crustal and upper-mantle conditions: Experimental and theoretical constraints. \emph{Rev Mineral Geochem} \bold{75}: 109--148. \doi{10.2138/rmg.2013.75.5}
 
+Migdisov A, Williams-Jones AE, Brugger J, Caporuscio FA. 2016. Hydrothermal transport, deposition, and fractionation of the REE: Experimental data and thermodynamic calculations. \emph{Chem Geol} \bold{439}: 13--42. \doi{10.1016/j.chemgeo.2016.06.005}
+
 Migdisov A, Bastrakov E, Alcorn C, Reece M, Boukhalfa H, Caporuscio FA, Jove-Colon C. 2025. A spectroscopic study of the stability of uranyl-carbonate complexes at 25--150°C and re-visiting the data available for uranyl-chloride, uranyl-sulfate, and uranyl-hydroxide species. \emph{Geochim Cosmochim Acta} \bold{406}: 326--339. \doi{10.1016/j.gca.2024.04.023}
 
-Pourbaix M. 1974. \emph{Atlas of Electrochemical Equilibria in Aqueous Solutions}. Houston, TX: NACE; Brussels: CEBELCOR. \url{https://www.worldcat.org/oclc/563921897}
+Pourbaix M. 1974. \emph{Atlas of Electrochemical Equilibria in Aqueous Solutions}. Houston, TX: NACE; Brussels: CEBELCOR. \url{https://worldcat.org/title/563921897}
+
+Rubtsova EA, Tagirov BR, Chareev DA, Akinfiev NN, Tarnopolskaia ME, Zlivko IYu, Reukov VL, Koroleva LA, Mezhueva AA, Nickolsky MS. 2026. Experimental determination of the behavior of gold(I) in sulfide fluids at acidic pH. \emph{Geol Ore Deposits} \bold{68}: 280-293. \doi{10.1134/S1075701525600690}
 
 Schulte MD, Shock EL. 1995. Thermodynamics of Strecker synthesis in hydrothermal systems. \emph{Orig Life Evol Biosph} \bold{25}: 161--173. \doi{10.1007/BF01581580}
 
@@ -133,11 +140,11 @@ Shock EL, Koretsky CM. 1995. Metal-organic complexes in geochemical processes: E
 
 Shock EL, Oelkers EH, Johnson JW, Sverjensky DA, Helgeson HC. 1992. Calculation of the thermodynamic properties of aqueous species at high pressures and temperatures: Effective electrostatic radii, dissociation constants and standard partial molal properties to 1000 °C and 5 kbar. \emph{J Chem Soc Faraday Trans} \bold{88}: 803--826. \doi{10.1039/FT9928800803}
 
-Skirrow RG, Walshe JL. 2002. Reduced and oxidized Au-Cu-Bi iron oxide deposits of the Tennant Creek Inlier, Australia: An integrated geologic and chemical model. \emph{Econ Geol} \bold{97}: 1167--1202. \doi{10.2113/gsecongeo.97.6.1167}
+Skirrow RG. 2026. Iron Oxide Copper–Gold (IOCG) deposits – A review (part 2): fluid, metal and sulfur sources and ore genesis. \emph{Ore Geol Rev} \bold{189}: 107120. \doi{10.1016/j.oregeorev.2026.107120}
 
 Stefánsson A, Seward TM. 2004. Gold(I) complexing in aqueous sulphide solutions to 500°C at 500 bar. \emph{Geochim Cosmochim Acta} \bold{68}: 4121--4143. \doi{10.1016/j.gca.2004.04.006}
 
-Stumm W, Morgan JJ. 1996. \emph{Aquatic Chemistry: Chemical Equilibria and Rates in Natural Waters}. 3rd ed. New York: John Wiley & Sons. 1040 p. \url{https://www.worldcat.org/oclc/31754493}
+Stumm W, Morgan JJ. 1996. \emph{Aquatic Chemistry: Chemical Equilibria and Rates in Natural Waters}. 3rd ed. New York: John Wiley & Sons. 1040 p. \url{https://worldcat.org/title/31754493}
 
 Sverjensky DA, Hemley JJ, D'Angelo WM. 1991. Thermodynamic assessment of hydrothermal alkali feldspar-mica-aluminosilicate equilibria. \emph{Geochim Cosmochim Acta} \bold{55}: 989--1004. \doi{10.1016/0016-7037(91)90157-Z}
 
@@ -145,7 +152,11 @@ Sverjensky DA, Harrison B, Azzolini D. 2014a. Water in the deep Earth: The diele
 
 Sverjensky DA, Stagno V, Huang F. 2014b. Important role for organic carbon in subduction-zone fluids in the deep carbon cycle. \emph{Nat Geosci} \bold{7}: 909--913. \doi{10.1038/ngeo2291}
 
+Tagirov BR, Akinfiev NN, Tarnopolskaia ME, Nikolaeva IY, Zlivko IY, Volchenkova VA, Koroleva LA, Zotov, AV. 2025. Gold in sulfide fluids revisited. \emph{Geochim Cosmochim Acta} \bold{406}: 285--304. \doi{10.1016/j.gca.2024.08.022}
+
 Tai SL, Boer VM, Daran-Lapujade P, Walsh MC, de Winde JH, Daran J-M, Pronk JT. 2005. Two-dimensional transcriptome analysis in chemostat cultures: Combinatorial effects of oxygen availability and macronutrient limitation in \emph{Saccharomyces cerevisiae}. \emph{J Biol Chem} \bold{280}: 437--447. \doi{10.1074/jbc.M410573200}
+
+Trofimov ND, Tagirov BR, Akinfiev NN, Reukov VL, Nickolsky MS, Nikolaeva IY, Tarnopolskaya ME, Afanasyev AA. 2023. Chalcocite Cu\s{2}S solubility in aqueous sulfide and chloride fluids. Thermodynamic properties of copper(I) aqueous species and copper transport in hydrothermal systems. \emph{Chem Geology} \bold{625}: 121413. \doi{10.1016/j.chemgeo.2023.121413}
 
 Tutolo BM, Kong X-Z, Seyfried WE Jr, Saar MO. 2014. Internal consistency in aqueous geochemical data revisited: Applications to the aluminum system. \emph{Geochim Cosmochim Acta} \bold{133}: 216--234. \doi{10.1016/j.gca.2014.02.036}
 

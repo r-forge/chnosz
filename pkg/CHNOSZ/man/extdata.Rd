@@ -65,6 +65,7 @@
     \item \code{RH98_Table15.csv} Group stoichiometries for high molecular weight crystalline and liquid organic compounds taken from Table 15 of Richard and Helgeson, 1998. The first three columns have the \code{compound} name, \code{formula} and physical \code{state} (\samp{cr} or \samp{liq}). The remaining columns have the numbers of each group in the compound; the names of the groups (columns) correspond to species in \code{\link{thermo}$OBIGT}. The compound named \samp{5a(H),14a(H)-cholestane} in the paper has been changed to \samp{5a(H),14b(H)-cholestane} here to match the group stoichiometry given in the table. See \code{\link{RH2OBIGT}} for a function that uses this file.
     \item \code{SK95.csv} contains thermodynamic data for alanate, glycinate, and their complexes with metals, taken from Amend and Helgeson (1997) and Shock and Koretsky (1995) as corrected in slop98.dat. These data are used in \code{demo("copper")} and \code{demo("glycinate")}.
     \item \code{LA19_test.csv} contains thermodynamic data for dimethylamine and trimethylamine from LaRowe and Amend (2019) in energy units of both J and cal. This file is used in \code{test-util.data.R}) to check the messages produced by \code{\link{check.GHS}} and \code{\link{check.EOS}}.
+    \item \code{C-127.txt}, \code{Fe-001.txt}, and \code{S-004.txt} are NIST-JANAF tables for ethyne(gas), wustite(cr), and sulfur(liq), downloaded from \url{https://janaf.nist.gov/tables/C-127.txt}, \url{https://janaf.nist.gov/tables/Fe-001.txt}, and \url{https://janaf.nist.gov/tables/S-004.txt} (NIST, 1998).
   }
 
 }
@@ -84,7 +85,7 @@ Dick JM. 2014. Average oxidation state of carbon in proteins. \emph{J R Soc Inte
 
 Gattiker A, Michoud K, Rivoire C, Auchincloss AH, Coudert E, Lima T, Kersey P, Pagni M, Sigrist CJA, Lachaize C, Veuthey A-L, Gasteiger E, Bairoch A. 2003. Automatic annotation of microbial proteomes in Swiss-Prot. \emph{Comput Biol Chem} \bold{27}: 49--58. \doi{10.1016/S1476-9271(02)00094-4}
 
-Helgeson HC, Delany JM, Nesbitt HW, Bird DK. 1978. Summary and critique of the thermodynamic properties of rock-forming minerals. \emph{Am J Sci} \bold{278-A}: 1--229. \url{https://www.worldcat.org/oclc/13594862}
+Helgeson HC, Delany JM, Nesbitt HW, Bird DK. 1978. Summary and critique of the thermodynamic properties of rock-forming minerals. \emph{Am J Sci} \bold{278-A}: 1--229. \url{https://worldcat.org/title/13594862}
 
 Hnědkovský L, Wood RH, Majer V. 1996. Volumes of aqueous solutions of \CH4, \CO2, \H2S, and \NH3 at temperatures from 298.15 K to 705 K and pressures to 35 MPa. \emph{J Chem Thermodyn} \bold{28}: 125--142. \doi{10.1006/jcht.1996.0011}
 
@@ -98,11 +99,13 @@ Makarova KS, Wolf YI, Iranzo J, Shmakov SA, Alkhnbashi OS, Brouns SJJ, Charpenti
 
 Merino E. 1975. Diagenesis in tertiary sandstones from Kettleman North Dome, California. II. Interstitial solutions: distribution of aqueous species at 100°C and chemical relation to diagenetic mineralogy. \emph{Geochim Cosmochim Acta} \bold{39}: 1629--1645. \doi{10.1016/0016-7037(75)90085-X}
 
+NIST. 1998. NIST-JANAF Thermochemical Tables. \doi{10.18434/T42S31}
+
 Privalov PL, Makhatadze GI. 1990. Heat capacity of proteins. II. Partial molar heat capacity of the unfolded polypeptide chain of proteins: Protein unfolding effects. \emph{J Mol Biol} \bold{213}: 385--391. \doi{10.1016/S0022-2836(05)80198-6}
 
 Richard L, Helgeson HC. 1998. Calculation of the thermodynamic properties at elevated temperatures and pressures of saturated and aromatic high molecular weight solid and liquid hydrocarbons in kerogen, bitumen, petroleum, and other organic matter of biogeochemical interest. \emph{Geochim Cosmochim Acta} \bold{62}: 3591--3636. \doi{10.1016/S0016-7037(97)00345-1}
 
-Robie RA, Hemingway BS. 1995. \emph{Thermodynamic Properties of Minerals and Related Substances at 298.15 K and 1 Bar (\eqn{10^5} Pascals) Pressure and at Higher Temperatures}. U S Geol Surv Bull 2131, 461 p. \url{https://www.worldcat.org/oclc/32590140}
+Robie RA, Hemingway BS. 1995. \emph{Thermodynamic Properties of Minerals and Related Substances at 298.15 K and 1 Bar (\eqn{10^5} Pascals) Pressure and at Higher Temperatures}. U S Geol Surv Bull 2131, 461 p. \url{https://worldcat.org/title/32590140}
 
 Shock E, Canovas P. 2010. The potential for abiotic organic synthesis and biosynthesis at seafloor hydrothermal systems. \emph{Geofluids} \bold{10}: 161--192. \doi{10.1111/j.1468-8123.2010.00277.x}
 
